@@ -1,0 +1,30 @@
+[project]
+site_name = "CTF Development"
+site_description = "Documentation for designing, building, and hosting Capture The Flag competitions"
+site_author = "0xfbad"
+extra_css = ["stylesheets/custom.css"]
+
+[project.theme]
+language = "en"
+features = [
+	"content.code.copy",
+	"navigation.instant",
+	"navigation.instant.prefetch",
+	"navigation.top",
+	"search.highlight",
+]
+
+[project.theme.icon]
+logo = "lucide/flag"
+
+[[project.theme.palette]]
+scheme = "slate"
+primary = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+scheme = "default"
+primary = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to dark mode"
